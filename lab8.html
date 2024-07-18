@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome to JLC!!!
+        </title>
+        <style>
+            table,td,th{
+                border: 1px rgb(180, 151, 151)solid;
+                border-collapse: collapse;
+                font-size: 25px;
+            }
+            .mytable{
+                width: 80%;
+            }
+            tr:nth-child(old){
+                background-color: azure;
+            }
+            tr:nth-child(odd){
+                background-color: lavender;
+            } 
+        </style>
+    </head>
+    <body>
+        <table class="mytable">
+            <caption><h3>Student Information</h3></caption>
+            <thead>
+                <tr>
+                <th>Sid</th>
+                <th>Sname</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Course 1</th>
+                <th>Course 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">101</td>
+                    <td rowspan="2">Eswar</td>
+                    <td>eswar@jlc</td>
+                    <td>8688205925</td>
+                    <td rowspan="2">Angular</td>
+                    <td rowsapn="2">React</td>
+                </tr>
+
+                <tr>
+                     <td>eswaraih@jlc></td>
+                     <td>868820</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Rukumini</td>
+                    <td>rukmini@jlc</td>
+                    <td>903011</td>
+                    <td colspan="2">React</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Rukku</td>
+                    <td>rukku@jlc</td>
+                    <td>21212121</td>
+                    <td>MongoDB</td>
+                    <td>Angular</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">104</td>
+                    <td rowspan="2">Srinivas</td>
+                    <td>srinivas@jlc</td>
+                    <td>12341234</td>
+                    <td rowspan="2">Angular</td>
+                    <td rowspan="2">NodeJS</td>
+                </tr>
+                <tr>
+                    <td>srini@jlc</td>
+                    <td>131313</td>
+                </tr>
+
+                <tr>
+                    <td>105</td>
+                    <td>MaheshBAbu</td>
+                    <td>maheshbabu@jlc</td>
+                    <td>10101010</td>
+                    <td colspan="2">CoreJava</td>
+                </tr>
+
+                <tr>
+                    <td>106</td>
+                    <td>PowenKalyan</td>
+                    <td>PowenKalyan@jlc</td>
+                    <td>222</td>
+                    <td>FullStackJava8</td>
+                    <td>MernStackJava8</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
